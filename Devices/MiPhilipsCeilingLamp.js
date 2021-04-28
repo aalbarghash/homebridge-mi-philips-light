@@ -64,8 +64,8 @@ MiPhilipsCeilingLampLight.prototype.getServices = function() {
     CeilingLampService
         .addCharacteristic(Characteristic.ColorTemperature)
         .setProps({
-            minValue: 50,
-            maxValue: 400,
+            minValue: 26950,
+            maxValue: 60000,
             minStep: 1
         });
     CeilingLampOnCharacteristic
